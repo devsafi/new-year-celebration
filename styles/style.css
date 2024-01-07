@@ -111,7 +111,7 @@ section .welcome .welcome-text p {
   font-weight: 400;
   margin-top: 20px;
 }
-section .welcome .welcome-text .welcome-button {
+section .welcome .welcome-text .primary-button {
   margin-top: 40px;
   margin-left: 30px;
   text-align: center;
@@ -125,3 +125,42 @@ section .welcome .welcome-text .welcome-button {
   cursor: pointer;
 }
 /* welcome section end */
+
+/* info section start */
+section .info {
+  margin-top: 120px;
+  text-align: center;
+  background-color: rgb(241, 208, 208);
+}
+
+section .info .info-text {
+  color: #070211;
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 50px;
+  padding-top: 80px;
+  text-transform: capitalize;
+}
+section .info .info-text .imp{
+    color: #f00;
+}
+section .info .info-btn{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+section .info .info-btn .primary-button{
+    background-color: #f00;
+  color: #fff;
+  font-family: Inter;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+/* info section end */
