@@ -142,15 +142,15 @@ section .info .info-text {
   padding-top: 80px;
   text-transform: capitalize;
 }
-section .info .info-text .imp{
-    color: #f00;
+section .info .info-text .imp {
+  color: #f00;
 }
-section .info .info-btn{
-    padding-top: 40px;
-    padding-bottom: 50px;
+section .info .info-btn {
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
-section .info .info-btn .primary-button{
-    background-color: #f00;
+section .info .info-btn .primary-button {
+  background-color: #f00;
   color: #fff;
   font-family: Inter;
   text-align: center;
@@ -164,3 +164,64 @@ section .info .info-btn .primary-button{
 }
 
 /* info section end */
+
+/* best offer section start */
+
+section .best-offer {
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+section .best-offer .best-offer-text1 .new-offer {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+section .best-offer .best-offer-text1 .comming {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+section .best-offer .best-offer-text1 .offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+
+section .best-offer .best-offer-img1 {
+  border: 15px solid #f00;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+section .best-offer .best-offer-text2 h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+section .best-offer .best-offer-text2 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 15px;
+  margin-bottom: 90px;
+  text-transform: capitalize;
+}
+section .best-offer-img2 {
+  background-position: left, bottom;
+}
+
+/* best offer section end */
