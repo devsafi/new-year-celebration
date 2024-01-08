@@ -227,39 +227,40 @@ section .best-offer-img2 {
 
 /* best offer section end */
 
-section .portfolio{
-  
+/* portfolio section start */
+
+section .portfolio {
 }
 
-section .portfolio-text{
+section .portfolio-text {
   margin-top: 120px;
   width: 50%;
   margin-left: 130px;
 }
-section .portfolio-text p{
-  color: #F00;
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-margin-bottom: 13px;
+section .portfolio-text p {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 13px;
 }
 
-section .portfolio-text h2{
+section .portfolio-text h2 {
   color: #070211;
-font-family: Merriweather;
-font-size: 45px;
-font-weight: 800;
-text-transform: capitalize;
-margin-bottom: 20;
+  font-family: Merriweather;
+  font-size: 45px;
+  font-weight: 800;
+  text-transform: capitalize;
+  margin-bottom: 20;
 }
 
-section .portfolio-text .portfolio-description{
-  color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 15px;
-font-weight: 300;
+section .portfolio-text .portfolio-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 300;
 }
-.portfolio-img{
+.portfolio-img {
   margin-top: 45px;
   flex-wrap: wrap;
   display: flex;
@@ -267,7 +268,65 @@ font-weight: 300;
   margin-left: 130px;
 }
 
-section .portfolio-img img{
+section .portfolio-img img {
   width: 350px;
   height: 350px;
+}
+
+/* portfolio section end */
+
+section .newsletter{
+  margin-top: 120px;
+  text-align: center;
+  background-color: rgb(241, 230, 227);
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+section .newsletter .newsletter-img{
+  margin-bottom: 40px;
+}
+
+section .newsletter .newsletter-text h2{
+  color: #070211;
+font-family: Merriweather;
+font-size: 45px;
+font-weight: 800;
+}
+
+section .newsletter .newsletter-text p{
+  padding: 0 122px;
+  color: #070211;
+font-family: Inter;
+font-size: 18px;
+font-weight: 300;
+}
+section .newsletter .newsletter-button{
+  margin-top: 40px;
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+section .newsletter .newsletter-button input{
+  padding: 15px;
+  width: 400px;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+section .newsletter .newsletter-button input[placeholder]{
+  color: rgba(7, 2, 17, 0.30);
+}
+
+section .newsletter .newsletter-button button{
+  padding: 15px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
 }
