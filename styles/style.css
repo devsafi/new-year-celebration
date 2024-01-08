@@ -27,10 +27,10 @@ header .new-year {
 
 .container .container-text {
   padding: 160px 300px;
-  color: yellow;
-  /* color: white; */
-  background-color: #070211;
-  opacity: 0.5;
+  color: white;
+  background-color: #0b0716;
+  opacity: 0.6;
+  height: 180px;
 }
 
 .container .container-text p {
@@ -103,6 +103,7 @@ section .welcome {
   justify-content: space-between;
   align-items: center;
 }
+
 section .welcome .welcome-text h1 {
   color: #fff;
   font-family: Merriweather;
