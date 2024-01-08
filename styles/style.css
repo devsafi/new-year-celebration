@@ -27,16 +27,20 @@ header .new-year {
 
 .container .container-text {
   padding: 160px 300px;
+  color: yellow;
+  /* color: white; */
+  background-color: #070211;
+  opacity: 0.5;
 }
+
 .container .container-text p {
-  color: #fff;
   text-align: center;
   font-size: 25px;
   font-weight: 400;
 }
 
 .container .container-text h1 {
-  color: #fff;
+  /* color: #fff; */
   text-align: center;
   font-size: 55px;
   font-style: normal;
@@ -75,10 +79,11 @@ section .offer-text h3 {
   font-weight: 700;
 }
 section .offer-img {
-  margin-top: 40px;
+  margin-top: 35px;
   text-align: center;
   vertical-align: auto;
   width: 100%;
+  height: 500px;
 }
 /* offer section end */
 
@@ -136,7 +141,7 @@ section .info {
 
 section .info .info-text {
   color: #070211;
-  font-family: inter;
+  font-family: Inter;
   font-size: 20px;
   font-weight: 500;
   line-height: 50px;
@@ -273,6 +278,11 @@ section .portfolio-img img {
   height: 350px;
 }
 
+section .portfolio-img img:hover {
+  opacity: 0.5;
+  transition: 0.13s;
+}
+
 /* portfolio section end */
 
 /* newsletter section start */
@@ -348,19 +358,19 @@ footer .footer-first-text {
 }
 footer .footer-main .footer-info {
   align-items: center;
-  color: #FFF;
+  color: #fff;
 
-font-family: Inter;
-font-size: 17px;
-font-weight: 400;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
 }
 footer .footer-first-text p {
   width: 300px;
   font-weight: 400;
   font-size: 17px;
-  color: #FFF;
+  color: #fff;
 
-font-family: Inter;
+  font-family: Inter;
 }
 footer .footer-main .footer-info img {
   padding-right: 10px;
@@ -386,12 +396,12 @@ footer .footer-main .footer-second-text {
   padding: 100px;
 }
 
-footer .footer-main .footer-second-text p{
-  color: #FFF;
+footer .footer-main .footer-second-text p {
+  color: #fff;
 
-font-family: Inter;
-font-size: 17px;
-font-weight: 400;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
 }
 footer .footer-main .footer-second-text input {
   background-color: transparent;
@@ -399,12 +409,12 @@ footer .footer-main .footer-second-text input {
   border: none;
   cursor: pointer;
   font-family: Inter;
-font-size: 17px;
-font-weight: 400;
+  font-size: 17px;
+  font-weight: 400;
 }
 
-footer hr{
-  opacity: .2;
+footer hr {
+  opacity: 0.2;
   margin: 0 100px;
 }
 /* footer section end */
