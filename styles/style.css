@@ -275,7 +275,8 @@ section .portfolio-img img {
 
 /* portfolio section end */
 
-section .newsletter{
+/* newsletter section start */
+section .newsletter {
   margin-top: 120px;
   text-align: center;
   background-color: rgb(241, 230, 227);
@@ -283,25 +284,25 @@ section .newsletter{
   padding-bottom: 65px;
 }
 
-section .newsletter .newsletter-img{
+section .newsletter .newsletter-img {
   margin-bottom: 40px;
 }
 
-section .newsletter .newsletter-text h2{
+section .newsletter .newsletter-text h2 {
   color: #070211;
-font-family: Merriweather;
-font-size: 45px;
-font-weight: 800;
+  font-family: Merriweather;
+  font-size: 45px;
+  font-weight: 800;
 }
 
-section .newsletter .newsletter-text p{
+section .newsletter .newsletter-text p {
   padding: 0 122px;
   color: #070211;
-font-family: Inter;
-font-size: 18px;
-font-weight: 300;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
 }
-section .newsletter .newsletter-button{
+section .newsletter .newsletter-button {
   margin-top: 40px;
   display: flex;
   gap: 0;
@@ -309,7 +310,7 @@ section .newsletter .newsletter-button{
   align-items: center;
 }
 
-section .newsletter .newsletter-button input{
+section .newsletter .newsletter-button input {
   padding: 15px;
   width: 400px;
   border: none;
@@ -317,11 +318,11 @@ section .newsletter .newsletter-button input{
   border-bottom-left-radius: 20px;
 }
 
-section .newsletter .newsletter-button input[placeholder]{
-  color: rgba(7, 2, 17, 0.30);
+section .newsletter .newsletter-button input[placeholder] {
+  color: rgba(7, 2, 17, 0.3);
 }
 
-section .newsletter .newsletter-button button{
+section .newsletter .newsletter-button button {
   padding: 15px;
   background-color: #f00;
   color: #fff;
@@ -330,3 +331,80 @@ section .newsletter .newsletter-button button{
   border-bottom-right-radius: 20px;
   cursor: pointer;
 }
+/* newsletter section end */
+
+/* footer section start */
+
+footer .footer-main {
+  background: #070211;
+  height: 600px;
+  margin-top: 100px;
+  color: #fff;
+}
+footer .footer-first-text {
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-main .footer-info {
+  align-items: center;
+  color: #FFF;
+
+font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+}
+footer .footer-first-text p {
+  width: 300px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #FFF;
+
+font-family: Inter;
+}
+footer .footer-main .footer-info img {
+  padding-right: 10px;
+}
+
+footer .footer-main .icon-img a {
+  padding-right: 20px;
+}
+
+footer .footer-main .icon-img {
+  text-align: center;
+  margin: 45px auto;
+}
+
+footer .footer-main .icon-img img {
+  height: 50px;
+  width: 50px;
+}
+
+footer .footer-main .footer-second-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+footer .footer-main .footer-second-text p{
+  color: #FFF;
+
+font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+}
+footer .footer-main .footer-second-text input {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+}
+
+footer hr{
+  opacity: .2;
+  margin: 0 100px;
+}
+/* footer section end */
